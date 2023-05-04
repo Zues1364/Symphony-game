@@ -1,0 +1,70 @@
+# depslib dependency file v1.0
+1683093913 source:e:\project\symphony\src\symphony.cpp
+	"Symphony.h"
+	"NoteBar.h"
+	"FallingRhythm.h"
+	"Beatmap.h"
+
+1683020142 e:\project\symphony\src\symphony.h
+	<iostream>
+	<cstdlib>
+	<ctime>
+	<SDL.h>
+	<SDL_image.h>
+	<SDL_mixer.h>
+	<SDL_ttf.h>
+	"TextureManager.h"
+	"Settings.h"
+
+1682760950 e:\project\symphony\src\settings.h
+
+1683020165 source:e:\project\symphony\main.cpp
+	"src/Symphony.h"
+
+1681572002 e:\project\symphony\src\texturemanager.h
+	<string>
+	<SDL_image.h>
+	"Symphony.h"
+
+1681572015 source:e:\project\symphony\src\texturemanager.cpp
+	"TextureManager.h"
+
+1681640551 e:\project\symphony\src\notebar.h
+	"Symphony.h"
+	"TextureManager.h"
+
+1682763840 source:e:\project\symphony\src\notebar.cpp
+	"NoteBar.h"
+
+1683016704 source:e:\project\symphony\src\fallingrhythm.cpp
+	"FallingRhythm.h"
+
+1682845822 e:\project\symphony\src\fallingrhythm.h
+	<SDL.h>
+	"TextureManager.h"
+	"Symphony.h"
+	"Beatmap.h"
+
+1683022976 source:e:\project\symphony\src\beatmap.cpp
+	"Beatmap.h"
+	"FallingRhythm.h"
+
+1683022935 e:\project\symphony\src\beatmap.h
+	<string>
+	<iostream>
+	<fstream>
+	<SDL.h>
+	<SDL_mixer.h>
+	<SDL_ttf.h>
+	<queue>
+	"label.h"
+	"Symphony.h"
+
+1683022620 e:\project\symphony\src\label.h
+	"Symphony.h"
+	<SDL.h>
+	<SDL_ttf.h>
+
+1683022646 source:e:\project\symphony\src\label.cpp
+	"Label.h"
+
